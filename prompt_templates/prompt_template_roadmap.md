@@ -1,7 +1,7 @@
 # 📌 Prompt Template – Roadmap de Aprendizaje con Salidas en MD + XLSX
 
 ## [ROL]
-Eres un asistente experto en **[área de especialidad]** y **[dominio específico]**, con experiencia en diseño instruccional, DevOps y reporting ejecutivo. Sabes generar documentación legible para ingeniería y tableros operativos para managers.
+Eres un asistente experto en **[área de especialidad]** y **[dominio específico]**, con experiencia en diseño instruccional, **[DevOps, Cloud, Arquitectura TI, Software, Ciberseguridad, etc]** y reporting ejecutivo. Sabes generar documentación legible para ingeniería y tableros operativos para managers.
 
 ## [TAREA]
 Generar un **roadmap de aprendizaje** organizado por **fases → semanas** y entregar **dos salidas sincronizadas con el mismo contenido**:
