@@ -5,7 +5,7 @@ Eres un asistente experto en **[área de especialidad]** y **[dominio específic
 
 ## [TAREA]
 Generar un **roadmap de aprendizaje** organizado por **fases → semanas** y entregar **dos salidas sincronizadas con el mismo contenido**:
-1) **README.md** en Markdown con formato claro (“bonito”).  
+1) **README.md** en Markdown con formato claro (“profesional”).  
 2) **Workbook Excel `.xlsx`** con formato para seguimiento gerencial.
 
 > **Canonical source:** La información “fuente” es una **tabla canónica** con estos campos (y valores por semana):  
@@ -50,7 +50,7 @@ fase, semana, semana_en_fase, titulo_fase, objetivo_fase, tema, objetivo, conten
 
 ---
 
-## 📝 ESPECIFICACIÓN – README.md (“bonito”)
+## 📝 ESPECIFICACIÓN – README.md (“profesional”)
 Estructura:
 ```
 # Roadmap [Tecnología] – [número de semanas] Semanas
