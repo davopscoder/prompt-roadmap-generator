@@ -28,7 +28,7 @@ Este repositorio contiene **plantillas de prompts** diseñadas para generar **ro
 
 1. **Abrir la plantilla**
    - Ve a `prompt_templates/` y abre el archivo `.md` correspondiente.
-   - Por ejemplo: `prompt_template_roadmap_md_xlsx.md`.
+   - Por ejemplo: `prompt_template_roadmap.md`.
 
 2. **Rellenar los campos**
    - Busca los campos entre corchetes `[]`.
