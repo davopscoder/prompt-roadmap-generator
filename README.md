@@ -1,80 +1,83 @@
-# 📚 Guía de Uso – Prompt Templates para Roadmaps
+# 📚 User Guide – Prompt Templates for Roadmaps
 
-Este repositorio contiene **plantillas de prompts** diseñadas para generar **roadmaps de aprendizaje** con doble salida:  
-- **Markdown (`.md`)**: Guía visual y legible para estudiantes y equipos técnicos.  
-- **Excel (`.xlsx`)**: Herramienta de seguimiento para managers y líderes de equipo.  
+This repository contains prompt templates designed to generate learning roadmaps with dual output formats:  
+- **Markdown (`.md`)**: A visual and easy-to-read guide for students and technical teams.  
+- **Excel (`.xlsx`)**:  A tracking tool for managers and team leaders.  
 
 ---
 
-## 📂 Estructura del Repositorio
+## 📂 Repository Structure
 
 ```
 /
-├── README.md                  # Este archivo con instrucciones de uso
-├── prompt_templates/          # Carpeta que contiene las plantillas .md
+├── README.md                  # This file with usage instructions
+├── prompt_templates/          # Folder containing .md templates
 │   ├── prompt_template_roadmap_md_xlsx.md
-│   └── ... (otras plantillas futuras)
-└── ejemplos/                  # Ejemplos de salidas generadas
+│   └── ... (other future templates)
+└── examples/                  # Examples of generated outputs
     ├── roadmap_python_devops.md
     ├── roadmap_python_devops.xlsx
     └── ...
 ```
 
-> **Sugerencia:** Guarda todas las plantillas en `prompt_templates/` y todos los ejemplos o salidas en `ejemplos/`.
+
+
+
+> **Tip:** Save all templates in `prompt_templates/` and all examples or outputs in `examples/`.
 
 ---
 
-## 🛠 Cómo Usar un Prompt Template
+## 🛠 How to Use a Prompt Template
 
-1. **Abrir la plantilla**
-   - Ve a `prompt_templates/` y abre el archivo `.md` correspondiente.
-   - Por ejemplo: `prompt_template_roadmap.md`.
+1. **Open the template**
+   - Go to `prompt_templates/` and open the corresponding `.md` file.
+   - For example: `prompt_template_roadmap.md`.
 
-2. **Rellenar los campos**
-   - Busca los campos entre corchetes `[]`.
-   - Sustitúyelos con la información de tu roadmap:
-     - Tecnología (ej. Python)
-     - Enfoque (ej. DevOps, Data Science, etc.)
-     - Número de semanas
-     - Número de fases
-     - Público objetivo
-     - Nivel inicial y final
-     - Mínimos por lista (`contenidos`, `practica`, `proyectos`)
+2. **Fill in the fields**
+   - Look for fields enclosed in square brackets `[]`.
+   - Replace them with your roadmap information:
+     - Technology (e.g., Python)
+     - Focus area (e.g., DevOps, Data Science, etc.)
+     - Number of weeks
+     - Number of phases
+     - Target audience
+     - Initial and final skill level
+     - Minimum items per list (`content`, `practice`, `projects`)
 
-3. **Ejecutar el prompt**
-   - Copia todo el contenido de la plantilla **ya personalizada**.
-   - Pégalo en tu herramienta de generación (ej. ChatGPT) e indica que deseas:
-     - Salida 1: `README.md` formateado.
-     - Salida 2: `.xlsx` con hojas, formato y validaciones según la especificación.
+3. **Run the prompt**
+   - Copy the entire **customized** template content.  
+   - Paste it into your generation tool (e.g., ChatGPT) and specify that you want:  
+     - Output 1: Formatted `README.md`.
+     - Output 2: `.xlsx` file with sheets, formatting, and validations as specified.
 
-4. **Guardar resultados**
-   - Coloca los archivos generados en la carpeta `ejemplos/`.
-
----
-
-## 🎯 Buenas Prácticas
-
-- Mantén **paridad exacta** entre el `.md` y el `.xlsx` (mismos textos y listas).
-- Usa siempre la misma **tabla canónica** como fuente para ambos formatos.
-- Actualiza la plantilla si cambian los requisitos de formato o estructura.
-- Versiona las plantillas para mantener un historial claro.
+4. **Save the results**
+   - Place the generated files into the `examples/` folder.
 
 ---
 
-## 📥 Ejecución Recomendada
+## 🎯 Best Practices
 
-Ejemplo de instrucción final:
-
-> "Genera la tabla canónica y, a partir de ella, entrega: (1) `README.md` con el formato anterior y (2) Excel `.xlsx` con las tres hojas y el estilo indicado. Asegura paridad exacta de contenido entre ambos."
-
----
-
-## 📌 Próximos Pasos
-
-- Añadir más plantillas para otros tipos de documentación (guías, OKRs, planes de proyecto).
-- Integrar scripts para convertir `.md` ↔ `.xlsx` automáticamente.
+- Maintain **exact parity** between the `.md` and `.xlsx` (same text and lists).
+- Always use the same **canonical table** as the source for both formats.
+- Update the template if formatting or structure requirements change.
+- Version your templates to keep a clear history.
 
 ---
 
-**Autor:** [Tu Nombre o Equipo]  
-**Licencia:** MIT
+## 📥 Suggested Final Execution
+
+Example of final instruction:
+
+> "Generate the canonical table and, based on it, provide: (1) a `README.md` file with the specified format and (2) an `.xlsx` file with three sheets and the indicated style. Ensure exact parity of content between both."
+
+---
+
+## 📌 Next Steps
+
+- Add more templates for other types of documentation (guides, OKRs, project plans).
+- Integrate scripts to convert `.md` ↔ `.xlsx` automatically.
+
+---
+
+**Author:** [Your Name or Team]  
+**License:** MIT
