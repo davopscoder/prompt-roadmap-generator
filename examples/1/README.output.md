@@ -1,198 +1,202 @@
-# Roadmap Python, Terraform, Kubernetes, Helm – 12 Semanas
+# Python, Terraform, Kubernetes, Helm Roadmap – 12 Weeks
 
-## Fase 1: Fundamentos de DevOps y Python
-**Objetivo de la fase:** Comprender los conceptos básicos de DevOps y dominar Python para automatización inicial.
+## Phase 1: DevOps and Python Fundamentals
+**Phase Objective:** Understand basic DevOps concepts and master Python for initial automation.
 
-### Semana 1 (Semana 1 de la Fase 1)
-**Tema:** Introducción a DevOps y Python  
-**Objetivo:** Entender principios de DevOps y configurar entorno Python.  
-**Contenidos:**
-- Principios de DevOps
-- Ciclo de vida de software
-- Introducción a Python
-- Instalación de Python y VSCode
-- Control de versiones con Git
-**Práctica:**
-- Configurar entorno Python y Git
-- Crear scripts básicos
-- Uso de repositorios remotos
-**Proyectos:**
-1) Script que imprime estado del sistema
-**Revisión:** Revisión de scripts y configuración de entorno  
-**Tags:** devops, python, fundamentos
+### Week 1 (Week 1 of Phase 1)
+**Topic:** Introduction to DevOps and Python
+**Objective:** Understand DevOps principles and set up a Python environment.
 
-### Semana 2 (Semana 2 de la Fase 1)
-**Tema:** Python para automatización  
-**Objetivo:** Escribir scripts Python para tareas repetitivas.  
-**Contenidos:**
-- Sintaxis Python
-- Manejo de archivos
-- Librerías estándar
+**Contents:**
+- DevOps Principles
+- Software Lifecycle
+- Introduction to Python
+- Installing Python and VSCode
+- Version Control with Git
+**Practice:**
+- Setting Up a Python and Git Environment
+- Creating Basic Scripts
+- Using Remote Repositories
+**Projects:**
+1) Script that Prints System Status
+**Review:** Script Review and Environment Setup
+**Tags:** devops, python, fundamentals
+
+### Week 2 (Week 2 of Phase 1)
+**Topic:** Python for Automation
+**Objective:** Write Python scripts for repetitive tasks.
+**Contents:**
+- Python syntax
+- File handling
+- Standard libraries
 - Virtualenv
-**Práctica:**
-- Crear script que lee y escribe archivos
-- Uso de argparse
-**Proyectos:**
-1) Script para limpiar logs antiguos
-**Revisión:** Revisión de código y buenas prácticas  
-**Tags:** python, automatización
+**Practice:**
+- Creating a script that reads and writes files
+- Using argparse
+**Projects:**
+1) Script to clean up old logs
+**Review:** Code review and best practices
+**Tags:** python, automation
 
-## Fase 2: Fundamentos de Infraestructura como Código
-**Objetivo de la fase:** Comprender Terraform y los principios de IaC.
+## Phase 2: Infrastructure as Code Fundamentals
+**Phase Objective:** Understand Terraform and IaC principles.
 
-### Semana 3 (Semana 1 de la Fase 2)
-**Tema:** Introducción a Terraform  
-**Objetivo:** Entender IaC y configurar entorno Terraform.  
-**Contenidos:**
-- Conceptos IaC
-- Instalación de Terraform
-- Providers y recursos básicos
-**Práctica:**
-- Crear configuración para VM simple
-- Aplicar y destruir infraestructura
-**Proyectos:**
-1) Infraestructura mínima en nube local
-**Revisión:** Validar despliegue y destrucción controlada  
+### Week 3 (Week 1 of Phase 2)
+**Topic:** Introduction to Terraform
+**Objective:** Understand IaC and configure a Terraform environment.
+**Contents:**
+- IaC Concepts
+- Terraform Installation
+- Providers and Basic Resources
+**Practice:**
+- Creating a Simple VM Configuration
+- Deploying and Destroying Infrastructure
+**Projects:**
+1) Minimal On-Premises Cloud Infrastructure
+**Review:** Validating Deployment and Controlled Destruction
 **Tags:** terraform, iac
 
-### Semana 4 (Semana 2 de la Fase 2)
-**Tema:** Variables y módulos en Terraform  
-**Objetivo:** Modularizar infraestructura para reuso.  
-**Contenidos:**
-- Variables y outputs
-- Módulos locales y remotos
-- Buenas prácticas
-**Práctica:**
-- Refactorizar infra usando módulos
-- Añadir variables de configuración
-**Proyectos:**
-1) Infra modular con red y servidor
-**Revisión:** Revisión de estructura modular  
-**Tags:** terraform, módulos
+### Week 4 (Week 2 of Phase 2)
+**Topic:** Variables and Modules in Terraform
+**Objective:** Modularize infrastructure for reuse.
+**Contents:**
+- Variables and outputs
+- Local and remote modules
+- Best practices
+**Practice:**
+- Refactoring infrastructure using modules
+- Adding configuration variables
+**Projects:**
+1) Modular infrastructure with network and server
+**Review:** Modular structure review
+**Tags:** terraform, modules
 
-## Fase 3: Contenedores con Docker y Kubernetes
-**Objetivo de la fase:** Aprender a desplegar y gestionar aplicaciones en contenedores y Kubernetes.
+## Phase 3: Containers with Docker and Kubernetes
+**Phase objective:** Learn how to deploy and manage containerized applications and Kubernetes.
 
-### Semana 5 (Semana 1 de la Fase 3)
-**Tema:** Introducción a Docker y Kubernetes  
-**Objetivo:** Crear imágenes Docker y entender Kubernetes básico.  
-**Contenidos:**
+### Week 5 (Week 1 of Phase 3)
+**Topic:** Introduction to Docker and Kubernetes
+**Objective:** Create Docker images and understand basic Kubernetes.
+
+**Contents:**
 - Dockerfile
-- docker build / run
-- Pods y Deployments en Kubernetes
-**Práctica:**
-- Crear imagen Docker para app Python
-- Desplegar pod en minikube
-**Proyectos:**
-1) App Python en Docker y pod
-**Revisión:** Validar imagen y pod funcionando  
-**Tags:** docker, kubernetes
+- Docker build / run
+- Pods and Deployments in Kubernetes
+**Practice:**
+- Create a Docker image for a Python app
+- Deploy a pod in minikube
+**Projects:**
+1) Python app in Docker and a pod
+**Review:** Validate the image and pod are working
+**Tags:** Docker, Kubernetes
 
-### Semana 6 (Semana 2 de la Fase 3)
-**Tema:** Servicios y volúmenes  
-**Objetivo:** Exponer apps y gestionar datos persistentes.  
-**Contenidos:**
-- Services y tipos
+### Week 6 (Week 2 of Phase 3)
+**Topic:** Services and volumes
+**Objective:** Expose apps and manage persistent data.
+**Contents:**
+- Services and Types
 - Persistent Volumes
-- ConfigMaps y Secrets
-**Práctica:**
-- Exponer app con LoadBalancer
-- Añadir PV y PVC
-**Proyectos:**
-1) App con base de datos y volumen persistente
-**Revisión:** Revisión de conectividad y persistencia  
-**Tags:** kubernetes, servicios
+- ConfigMaps and Secrets
+**Practice:**
+- Exposing an App with LoadBalancer
+- Adding PVs and PVCs
+**Projects:**
+1) App with a Database and Persistent Volume
+**Review:** Connectivity and Persistence Review
+**Tags:** Kubernetes, Services
 
-## Fase 4: Gestión de despliegues con Helm
-**Objetivo de la fase:** Implementar y gestionar paquetes Kubernetes con Helm.
+## Phase 4: Managing Deployments with Helm
+**Phase Objective:** Deploy and manage Kubernetes packages with Helm.
 
-### Semana 7 (Semana 1 de la Fase 4)
-**Tema:** Introducción a Helm  
-**Objetivo:** Instalar y usar Helm para despliegues simples.  
-**Contenidos:**
-- Instalación de Helm
-- Charts básicos
+### Week 7 (Week 1 of Phase 4)
+**Topic:** Introduction to Helm
+**Objective:** Install and use Helm for simple deployments.
+
+**Contents:**
+- Installing Helm
+- Basic Charts
 - helm install / upgrade
-**Práctica:**
-- Crear chart básico para app Python
-**Proyectos:**
-1) Chart Helm para app existente
-**Revisión:** Validar despliegue con Helm  
+**Practice:**
+- Creating a basic chart for a Python app
+**Projects:**
+1) Helm Chart for an existing app
+**Review:** Validate deployment with Helm
 **Tags:** helm, kubernetes
 
-### Semana 8 (Semana 2 de la Fase 4)
-**Tema:** Helm avanzado y repositorios  
-**Objetivo:** Gestionar repositorios y valores dinámicos.  
-**Contenidos:**
-- helm repo
-- values.yaml avanzados
-- Plantillas y helpers
-**Práctica:**
-- Personalizar despliegue con values
-- Uso de condicionales en templates
-**Proyectos:**
-1) Chart con parámetros configurables
-**Revisión:** Revisión de parametrización  
-**Tags:** helm, templates
+### Week 8 (Week 2 of Phase 4)
+**Topic:** Advanced Helm and Repositories
+**Objective:** Manage repositories and dynamic values.
+**Contents:**
+- Helm repo
+- Advanced values.yaml
+- Templates and helpers
+**Practice:**
+- Customizing deployment with values
+- Using conditionals in templates
+**Projects:**
+1) Chart with configurable parameters
+**Review:** Parameterization review
+**Tags:** Helm, templates
 
-## Fase 5: CI/CD con GitHub Actions
-**Objetivo de la fase:** Automatizar pruebas y despliegues con pipelines CI/CD.
+## Phase 5: CI/CD with GitHub Actions
+**Phase objective:** Automate testing and deployments with CI/CD pipelines.
 
-### Semana 9 (Semana 1 de la Fase 5)
-**Tema:** Introducción a CI/CD  
-**Objetivo:** Configurar pipeline básico en GitHub Actions.  
-**Contenidos:**
+### Week 9 (Week 1 of Phase 5)
+**Topic:** Introduction to CI/CD
+**Objective:** Configure a basic pipeline in GitHub Actions.
+
+**Contents:**
 - YAML workflows
-- Jobs y steps
-- Acciones predefinidas
-**Práctica:**
-- Pipeline para ejecutar tests Python
-**Proyectos:**
-1) CI básico para validar código
-**Revisión:** Revisión de ejecución en Actions  
+- Jobs and steps
+- Predefined actions
+**Practice:**
+- Pipeline for running Python tests
+**Projects:**
+1) Basic CI for validating code
+**Review:** Actions execution review
 **Tags:** cicd, github-actions
 
-### Semana 10 (Semana 2 de la Fase 5)
-**Tema:** Despliegue automatizado  
-**Objetivo:** Integrar Terraform y Kubernetes en CI/CD.  
-**Contenidos:**
-- Secrets en GitHub
+### Week 10 (Week 2 of Phase 5)
+**Topic:** Automated Deployment
+**Objective:** Integrate Terraform and Kubernetes in CI/CD.
+**Contents:**
+- Secrets on GitHub
 - Terraform apply
-- kubectl en pipelines
-**Práctica:**
-- Pipeline que despliega infra y app
-**Proyectos:**
-1) CD para app Python
-**Revisión:** Validar despliegue automatizado  
-**Tags:** cicd, despliegue
+- kubectl in pipelines
+**Practice:**
+- Pipeline that deploys infrastructure and app
+**Projects:**
+1) CD for a Python app
+**Review:** Validate automated deployment
+**Tags:** cicd, deployment
 
-## Fase 6: Proyecto Integrador DevOps
-**Objetivo de la fase:** Desarrollar y desplegar una solución completa con herramientas aprendidas.
+## Phase 6: DevOps Integration Project
+**Phase objective:** Develop and deploy a complete solution with the tools learned.
 
-### Semana 11 (Semana 1 de la Fase 6)
-**Tema:** Diseño de proyecto  
-**Objetivo:** Planificar arquitectura y stack del proyecto integrador.  
-**Contenidos:**
-- Definición de requisitos
-- Diagramas de arquitectura
-- Selección de tecnologías
-**Práctica:**
-- Crear plan y backlog del proyecto
-**Proyectos:**
-1) Documento de diseño y backlog
-**Revisión:** Revisión de plan y alcance  
-**Tags:** proyecto, arquitectura
+### Week 11 (Week 1 of Phase 6)
+**Topic:** Project Design
+**Objective:** Plan the architecture and stack of the integration project.
+**Contents:**
+- Requirements definition
+- Architecture diagrams
+- Technology selection
+**Practice:**
+- Create project plan and backlog
+**Projects:**
+1) Design document and backlog
+**Review:** Plan and scope review
+**Tags:** project, architecture
 
-### Semana 12 (Semana 2 de la Fase 6)
-**Tema:** Implementación y entrega  
-**Objetivo:** Implementar, probar y entregar el proyecto integrador.  
-**Contenidos:**
-- Desarrollo de funcionalidades
-- Infraestructura como código
-- CI/CD y monitoreo
-**Práctica:**
-- Desplegar proyecto en entorno real
-**Proyectos:**
-1) Proyecto final desplegado
-**Revisión:** Demo final y retroalimentación  
-**Tags:** proyecto, entrega-final
+### Week 12 (Week 2 of Phase 6)
+**Topic:** Implementation and delivery
+**Objective:** Implement, test, and deliver the integrative project.
+**Contents:**
+- Feature development
+- Infrastructure as code
+- CI/CD and monitoring
+**Practice:**
+- Deploy project in a live environment
+**Projects:**
+1) Final project deployed
+**Review:** Final demo and feedback
+**Tags:** project, final-delivery
